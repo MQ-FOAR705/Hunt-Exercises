@@ -7,3 +7,6 @@
 [submodule "Hunt_Elaboration_1_Planning"]
 	path = Hunt_Elaboration_1_Planning
 	url = https://github.com/MQ-FOAR705/Hunt_Elaboration_1_Planning.git
+[submodule "Hunt_Elaboration_2_Testing"]
+	path = Hunt_Elaboration_2_Testing
+	url = https://github.com/MQ-FOAR705/Hunt_Elaboration_2_Testing.git
