@@ -10,3 +10,6 @@
 [submodule "Hunt_Elaboration_2_Testing"]
 	path = Hunt_Elaboration_2_Testing
 	url = https://github.com/MQ-FOAR705/Hunt_Elaboration_2_Testing.git
+[submodule "Hunt_Proof_Of_Concept_Design"]
+	path = Hunt_Proof_Of_Concept_Design
+	url = https://github.com/MQ-FOAR705/Hunt_Proof_Of_Concept_Design.git
