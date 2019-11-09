@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+set -ex
+../code/bats-core/bin/bats test.bats #Tests there is a text file for the script to be run on.
+
+bash organise_notes.sh ../data/Purl_Notes.txt # Sorts the notes into separate files.
+
+../code/bats-core/bin/bats test2.bats #Tests eight files were produced by the script.

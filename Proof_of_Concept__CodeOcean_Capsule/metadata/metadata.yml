@@ -1,0 +1,9 @@
+metadata_version: 1
+name: Hunt_FOAR705_Proof_Of_Concept
+description: |-
+  This project was created to attempt to alleviate some of the pains associated with research involving the analysis of films, which I will be undertaking in the completion of my Master of Research. The project was completed as one aspect of the FOAR705 Digital Humanities unit at Macquarie University.
+
+  This Unix Script is designed to take a plain text file containing notes created in the oTranscribe web application, and sort these notes into separate text files on the basis of their mention of specific keywords.
+
+  For more information about this project and deployment instructions please see https://mq-foar705.github.io/Hunt-Exercises/.
+corresponding_contributor: {}
