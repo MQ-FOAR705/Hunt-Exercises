@@ -53,25 +53,19 @@ transcription software - link to site - run on here so I am not dependent
 how it will help me
 
 #### oTranscribe
+
+[Template for Note Taking to Upload to oTranscribe](/Hunt-Exercises/oTranscribe_Template.otr)
+
 [oTranscribe Copy](/Hunt-Exercises/docs)
 
 #### Instructions
 [README](/Hunt-Exercises/README.md) to be edited 
 
 #### License
-to be added
+[LICENSE](/Hunt-Exercises/LICENSE)
 
-### Acceptibilty Criteria
-Using oTranscribe, you should be able to:
-* criteria 1
-* criteria 2
-<br />
-Using the Unix Script, you should be able to:
-* criteria 1
-* criteria 2
-<br />
-<br />
-As a result of the number of changes this project underwent, these acceptibility criteria differ from those initialy proposed in the Proof of Design Document referenced earlier.
 
-### TESTING
+### QUALITY ASSURANCE & ACCEPTIBILITY CRITERIA
 
+[User Acceptance Testing Document](https://github.com/MQ-FOAR705/Hunt_Quality_Assurance_Scaffold/tree/f1e0436fd7572743f1b47f480772565995770247)
+add a description - what these are, where I have completed them
