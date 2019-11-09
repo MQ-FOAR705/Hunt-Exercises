@@ -13,3 +13,6 @@
 [submodule "Hunt_Proof_Of_Concept_Design"]
 	path = Hunt_Proof_Of_Concept_Design
 	url = https://github.com/MQ-FOAR705/Hunt_Proof_Of_Concept_Design.git
+[submodule "Hunt_Quality_Assurance_Scaffold"]
+	path = Hunt_Quality_Assurance_Scaffold
+	url = https://github.com/MQ-FOAR705/Hunt_Quality_Assurance_Scaffold.git
