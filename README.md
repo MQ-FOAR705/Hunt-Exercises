@@ -39,7 +39,9 @@ However to deploy for yourself indepedently from the capsule,
 # Script to sort notes in a txt file from oTranscribe into separate txt files on the basis of their mention of specific keywords
 # Run this script with the filename of the notes as the argument
 # Usage: bash name_of_your_notes_file.sh notesfile.txt
-for keyword in colour lighting camera sound editing theme narrative character # Edit these words to search for different terms #Editing the number of terms will result in the test2 failing.
+for keyword in colour lighting camera sound editing theme narrative character 
+# Edit these words to search for different terms 
+#Editing the number of terms will result in the test2 failing.
 
 do
 grep -i $keyword $1 > sorted_notes/$keyword.txt
