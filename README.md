@@ -1,4 +1,5 @@
 # Hunt-Exercises
+# FOAR705 Proof-of-Concept: Improving The Writing and Organising of Notes on A Film
 
 This project was created to attempt to alleviate some of the pains associated with research involving the analysis of films, which I will be undertaking in the completion of my Master of Research at Macquarie University.
 
@@ -26,8 +27,8 @@ To Use The Tools Please Follow These Instructions
 1. To edit or add to your notes re-upload the notes by following steps 2-5, replacing the template file in step 5 with the notes file you wish to edit. Also follow step 4 to reopen the video file the notes are related to. The follow step 11 to download the notes, which will save as ‘Transcript exported Day, Date Time GMT.filetypeyouselected’.
 
 
-## Unix Script
-A capsule for my unix script has been shared with the convenors for this unit and the exported capsule can be found [here](https://github.com/MQ-FOAR705/Hunt-Exercises/tree/master/Proof_of_Concept__CodeOcean_Capsule)
+## Shell Script
+A capsule for my shell script has been shared with the convenors for this unit and the exported capsule can be found [here](https://github.com/MQ-FOAR705/Hunt-Exercises/tree/master/Proof_of_Concept__CodeOcean_Capsule)
 
 However to deploy for yourself indepedently from the capsule, 
 
@@ -71,7 +72,7 @@ done
 ```
 This should produce a tick mark with the name or the test, and '1 test, 0 failures'
 
-8. With the main folder still as the working directory, we will now run the script. In the unix shell enter,
+8. With the main folder still as the working directory, we will now run the script (Please note, later rerunning the script in the same directory with an updated notes file will overwrite the previous sorted notes files. Version control is recommended). In the unix shell enter,
 ```
 bash code/organise_notes.sh data/name_of_your_notes_file.txt
 ```
