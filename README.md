@@ -34,7 +34,7 @@ However, to deploy for yourself independently from the capsule,
 
 1. Install bats-core from https://github.com/bats-core/bats-core, following the instructions for installation appropriate for what you currently have installed on your computer.
 1. Using either GUI or the unix shell, create a directory with the name of the film you have created your notes for, and within that, create three directories: code, data and sorted_notes.
-1. Save your notes exported from oTranscribe as a text file to ‘data’.
+1. Save your notes exported from oTranscribe as a text file in ‘data’.
 1. From within the unix shell, make ‘code’ the working directory and enter, ‘nano organise_notes.sh' and press enter. Within nano type the following, then save and exit,
 ```
 # Script to sort notes in a txt file from oTranscribe into separate txt files on the basis of their mention of specific keywords
