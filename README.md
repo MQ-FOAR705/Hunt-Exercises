@@ -17,10 +17,10 @@ To Use The Tools Please Follow These Instructions
 1. 4 Either select the blue button with an upward arrow and the text ‘Choose audio (or video) file’, navigate to the video file you wish to take notes on and select ‘Open’, OR select the blue ‘or Youtube video’ button, enter a working YouTube link and press your enter key.
 1. 5 Upload the template file (oTranscribe_Template.otr) to oTranscribe, by selecting the Import icon from the right hand side of the page, navigating to where the file is saved on your computer, selecting it and clicking ‘Open’. Use your enter key to make sure the cursor is on a new line.
 1. Play the video you have opened in the window in the top left hand corner of the page by either clicking the play button in this window or pressing your escape key.
-1. When you reach a point of the film at which you want to take a note, pause the video by clicking the pause button in the video window or pressing the escape key on your keyboard.Then press the command and ‘j’ keys on your keyboard at the same time. This will insert a timestamp. Then, beginning with one or more of the keywords listed at the top of the template file, write your notes about this part of the video. Press enter to put the text cursor on a new line. Resume the video by following step 6.
+1. When you reach a point of the film at which you want to take a note, pause the video by clicking the pause button in the video window (or in the menu bar if you have uploaded your own video) or pressing the escape key on your keyboard.Then press the command and ‘j’ keys on your keyboard at the same time. This will insert a timestamp. Then, beginning with one or more of the keywords listed at the top of the template file, write your notes about this part of the video. Press enter to put the text cursor on a new line. Resume the video by following step 6.
 1. Follow step 7 whenever you wish to take a note.
-1. To navigate through the video, either scrub through it in the player window, or use the various shortcuts which can be found (and edited) by selecting the cog icon in the page’s menu bar.
-1. To go the time in the video indicated by one of the timestamps (which appear in blue) either click on the timestamp or while the text cursor is somewhere in the note of the timestamp you want to jump to, press the command and ‘k’ keys on your keyboard at the same time. This will produce a pop up saying ‘Jump to time’ with a timestamp. Press the enter key to jump to this time. 
+1. To navigate through the video, either scrub through it in the player window (or in the menu bar if you have uploaded your own video), or use the various shortcuts which can be found (and edited) by selecting the cog icon in the page’s menu bar. There are different options for different keyboards (e.g. those that do not have a row of function keys).
+1. To go the time in the video indicated by one of the timestamps (which appear in blue) click on the timestamp. 
 1. When you have finished taking notes, click the Export icon on the right hand side of the page and select the file type you would like to download, which will initiate an automatic download (Please note, the connection to Google Drive button is not functional). Repeat this step until you have at least downloaded a plain text (.txt) and oTranscribe format (.otr) version of your files. 
 1. Your downloads will save as ‘Transcript exported Day, Date Time GMT.filetypeyouselected’ (e.g.Transcript exported Sat, 09 Nov 2019 00_05_11 GMT.txt). Rename them something appropriate for their contents, for example ‘VideoName_Notes’. Move the file to somewhere you will be able to easily find it.
 1. To edit or add to your notes re-upload the notes by following steps 2-5, replacing the template file in step 5 with the notes file you wish to edit. Also follow step 4 to reopen the video file the notes are related to. The follow step 11 to download the notes, which will save as ‘Transcript exported Day, Date Time GMT.filetypeyouselected’.
@@ -67,7 +67,7 @@ done
 ```
 7. From the unix shell, make your main folder (which you named the film the notes were on) the working directory. We will now conduct the first test. In the unix shell enter,
 ```
-/the direct path to where you have the bat-core folder/bats-core/bin/bat code/test.bats
+/the direct path to where you have the bat-core folder/bats-core/bin/bats code/test.bats
 ```
 This should produce a tick mark with the name or the test, and '1 test, 0 failures'
 
@@ -77,6 +77,6 @@ bash code/organise_notes.sh data/name_of_your_notes_file.txt
 ```
 9. To check this produced eight text files, we will now run the second test. With the main folder still as the working directory, enter in the unix shell
 ```
-/the direct path to where you have the bat-core folder/bats-core/bin/bat code/test2.bats
+/the direct path to where you have the bat-core folder/bats-core/bin/bats code/test2.bats
 ```
 This should produce a tick mark with the name or the test, and '1 test, 0 failures'
