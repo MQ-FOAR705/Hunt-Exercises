@@ -16,3 +16,6 @@
 [submodule "Hunt_Quality_Assurance_Scaffold"]
 	path = Hunt_Quality_Assurance_Scaffold
 	url = https://github.com/MQ-FOAR705/Hunt_Quality_Assurance_Scaffold.git
+[submodule "Hunt_Emily_Lightning_Talk"]
+	path = Hunt_Emily_Lightning_Talk
+	url = https://github.com/MQ-FOAR705/Hunt_Emily_Lightning_Talk.git
